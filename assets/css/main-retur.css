@@ -1,0 +1,146 @@
+/*Global Style*/
+html, body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Lato', sans-serif;
+   color: #444;
+}
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Lato', sans-serif;
+   font-weight: 700;
+}
+.remove-bottom {
+   margin-bottom: 0;
+}
+/*End Global Style*/
+
+/*Input*/
+.input-group-addon {
+   border-radius: 0;
+}
+.form-custom {
+   border-radius: 0;
+}
+.form-custom:focus {
+   border-color: rgba(215, 60, 60, 1);
+   outline: 0;
+   box-shadow: none;
+}
+/*End Input*/
+
+/*Page Header*/
+#page-header {
+   position: fixed;
+   width: 100%;
+   height: 3rem;
+   box-shadow: 0px 0.1rem rgba(0, 0, 0, 0.1),
+               0px 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
+}
+#page-header h1.title {
+   margin: 0;
+   font-size: 1.5rem;
+   line-height: 3rem;
+   text-align: center;
+}
+#page-header .navigation {
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding-left: 0.5rem;
+   line-height: 3rem;
+}
+#page-header .navigation span {
+   cursor: pointer;
+   color: #444;
+}
+.padding-wrapper {
+   padding-top: 1em;
+   padding-bottom: 1em;
+}
+/*End Page Header*/
+
+/*Custom Form*/
+.basic-one {
+
+}
+.fieldset-custom {
+   margin-bottom: 15px;
+}
+legend.title {
+   margin: 0 0 15px 0; 
+   font-size: 1.2em;
+   font-weight: 700;
+}
+label.small {
+   font-size: 12px;
+}
+/*End Custom Form*/
+
+/*Custom Button*/
+.btn-default-custom {
+   margin-bottom: 15px;
+}
+.btn-main-color {
+   margin-bottom: 15px;
+   border: none;
+   background: rgb(215, 60, 60) linear-gradient(to bottom, rgb(222, 94, 94) 0%,
+               rgb(215, 60, 60) 100%) repeat scroll 0% 0%;
+   color: #FFF;
+}
+.btn-main-color:hover,
+.btn-main-color:active {
+   border: none !important;
+   background: rgb(215, 60, 60) linear-gradient(to bottom, rgb(222, 94, 94) 0%,
+               rgb(215, 60, 60) 100%) repeat scroll 0% 0% !important;
+   color: #FFF !important;
+}
+/*End Custom Button*/
+
+/*Order List*/
+.order-list {
+   position: relative;
+   padding: 10px;
+   margin-bottom: 15px;
+   border: 1px solid #CCC;
+}
+.order-area {
+   position: relative;
+   margin-left: -10px;
+}
+.item-info {
+   margin-left: 34px;
+   padding-left: 6px;
+}
+.nama-item,
+.sku,
+.harga-item {
+   display: block;
+   font-size: 12px;
+}
+.product-check {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 39px;
+   height: 100%;
+}
+input[type="checkbox"].order-checkbox {
+   position: absolute;
+   margin-top: 0;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+.retur-reason {
+   margin-top: 10px;
+   padding-top: 10px;
+   border-top: 1px solid #CCC;
+}
+.input-placeholder {
+   margin: 0 auto;
+   width: 100%;
+   height: 200px;
+   border: 1px solid dashed #CCC;
+   background: #EEE;
+}
+/*End Order List*/
